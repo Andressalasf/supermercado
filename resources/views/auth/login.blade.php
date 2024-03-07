@@ -32,7 +32,7 @@
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <button type="submit" class="btn btn-primary btn-block">Ingresar{{ ('Login') }}</button>
+                            <button type="submit" class="btn btn-primary btn-block ">{{ ('Ingresar') }}</button>
                         </div>
                         <div class="col-6">
                             <a href="{{route('register')}}" class="btn  btn-block btn-primary">Registro</a>

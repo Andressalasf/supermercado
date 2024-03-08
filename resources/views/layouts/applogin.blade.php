@@ -28,18 +28,22 @@
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     @stack('css')
+
 </head>
 <body class="hold-transition register-page ">
     @yield('content')
+ <!-- jQuery -->
+ <script src="{{asset('backend/plugins/jquery/jquery.min.js')}}"></script>
+ <!-- Bootstrap 4 -->
+ <script src="{{('backend/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+ <!-- AdminLTE App -->
+ <script src="{{('backend/dist/js/adminlte.min.js')}}"></script>
+   
+  
 
     
 </body>
+  
 
-<!-- jQuery -->
-<script src="{{asset('backend/plugins/jquery/jquery.min.js')}}"></script>
-<!-- Bootstrap 4 -->
-<script src="{{('backend/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<!-- AdminLTE App -->
-<script src="{{('backend/dist/js/adminlte.min.js')}}"></script>
 
 </html>

@@ -5,14 +5,14 @@
 <div class="register-box bg-dark.bg-gradient">
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="../../index2.html" class="h1"><b>Admin</b>LTE</a>
+      <a href="../../index2.html" class="h1"><b>Super</b>mercado</a>
     </div>
     <div class="card-body">
-      <p class="login-box-msg">Register a new membership</p>
+      <p class="login-box-msg">Registrate para ser miembro</p>
 
       <form action="{{ route('register') }}" method="post">
       @csrf
-        <div class="input-group mb-3">
+        <div class="input-group mb-3 ">
         <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="Nombre">
           <div class="input-group-append">
             <div class="input-group-text">
@@ -62,7 +62,7 @@
        
       </div>
 
-      <a href="login.html" class="text-center">Ya tengo cuenta</a>
+      <a href="login" class="text-center">Ya tengo cuenta</a>
     </div>
     <!-- /.form-box -->
   </div><!-- /.card -->

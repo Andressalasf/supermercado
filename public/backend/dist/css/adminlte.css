@@ -3723,7 +3723,7 @@ input[type="button"].btn-block {
   color: #495057;
   text-align: center;
   white-space: nowrap;
-  background-color: #e9ecef;
+  background-color: #006fe6;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
 }
@@ -34863,9 +34863,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 .register-page {
   -ms-flex-align: center;
   align-items: center;
-  background-color: #008966;
-  background: rgb(255,0,0);
-  background: linear-gradient(90deg, rgba(255,0,0,1) 1%, rgba(241,126,61,1) 56%);
+  background-color: #006fe6;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -34895,7 +34893,8 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 
 .login-card-body,
 .register-card-body {
-  background-color: #fff;
+  background: rgb(0,194,255);
+  background: linear-gradient(90deg, rgba(0,194,255,1) 1%, rgba(61,95,241,1) 56%);
   border-top: 0;
   color: #666;
   padding: 20px;
@@ -34946,7 +34945,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
   border-bottom-right-radius: 0.25rem;
   border-left: 0;
   border-top-right-radius: 0.25rem;
-  color: #777;
+  color: #0069d9;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -34964,7 +34963,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 .dark-mode .login-card-body,
 .dark-mode .register-card-body {
   background-color: #343a40;
-  border-color: #6c757d;
+  border-color: #0c84ff;
   color: #fff;
 }
 
